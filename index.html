@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INS-ELECTRO | Instalatorstwo Elektryczne</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .oferta-section {
+            display: block; text-align: center;
+        }
+        .oferta-box {
+            position: relative;
+            width: 90%; max-width: 600px; margin: 30px auto;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+        .oferta-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+        .oferta-box:hover img {
+            transform: scale(1.05);
+        }
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            background: rgba(0,0,0,0.85);
+            color: #fff;
+            width: 100%;
+            padding: 15px;
+            font-size: 14px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .oferta-box:hover .overlay {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo-ins-electro.png" alt="INS-ELECTRO Logo" style="width:200px;margin-bottom:20px;">
+            <h1>INS-ELECTRO</h1>
+            <p>Zaufaj doświadczeniu<br>Kompleksowe instalacje i serwis!</p>
+            <a href="#oferta" class="btn">Zobacz ofertę</a>
+            <a href="https://twoj-sklep-inselectro.pl" class="btn shop" target="_blank">Przejdź do sklepu</a>
+        </div>
+    </header>
+
+    <section id="o-nas">
+  <div class="container">
+    <h2>O nas</h2>
+
+    <p><strong>Ins-Electro</strong><br>Tworzymy nowoczesne instalacje – bez kompromisów.</p>
+
+    <details>
+      <summary><strong>Dowiedz się więcej</strong></summary>
+      <p>W INS-ELECTRO wierzymy, że elektryka to nie tylko przewody i włączniki – to podstawa komfortu, bezpieczeństwa i nowoczesnego stylu życia.</p>
+      <p>Od lat pomagamy klientom indywidualnym i firmom wdrażać niezawodne instalacje elektryczne, systemy alarmowe, monitoring, automatykę domową i fotowoltaikę.</p>
+      <p>Stawiamy na jakość, terminowość i uczciwe podejście.</p>
+      <p>Działamy głównie na terenie Wielkopolski, ale chętnie realizujemy również większe projekty w całej Polsce.</p>
+    </details>
+
+  </div>
+</section>
+
+
+    <section id="oferta">
+        <div class="container">
+            <h2>Nasza oferta</h2>
+            <div class="oferta-section">
+                <div class="oferta-box">
+                    <img src="instalacje-elektryczne.png" alt="Instalacje elektryczne">
+                    <div class="overlay">
+                        <p>Profesjonalny montaż i modernizacja instalacji elektrycznych w domach, firmach i obiektach przemysłowych. Stawiamy na bezpieczeństwo, zgodność z normami i estetykę wykonania.</p>
+                    </div>
+                </div>
+                <div class="oferta-box">
+                    <img src="alarmy.png" alt="Alarmy">
+                    <div class="overlay">
+                        <p>Systemy sygnalizacji włamania i napadu z powiadomieniem SMS, integracją z aplikacją i monitoringiem. Skuteczna ochrona domu i firmy.</p>
+                    </div>
+                </div>
+                <div class="oferta-box">
+                    <img src="monitoring.png" alt="Monitoring">
+                    <div class="overlay">
+                        <p>Monitoring wizyjny CCTV z kamerami IP, rejestratorem i dostępem zdalnym. Ochrona mienia przez całą dobę.</p>
+                    </div>
+                </div>
+                <div class="oferta-box">
+                    <img src="smart-home.png" alt="Smart Home">
+                    <div class="overlay">
+                        <p>Inteligentne sterowanie oświetleniem, roletami, bramą i ogrzewaniem z aplikacji. Wygoda i nowoczesność w Twoim domu.</p>
+                    </div>
+                </div>
+                <div class="oferta-box">
+                    <img src="fotowoltaika.png" alt="Fotowoltaika">
+                    <div class="overlay">
+                        <p>Projekt i montaż instalacji fotowoltaicznych. Oszczędzaj energię i dbaj o środowisko dzięki odnawialnym źródłom.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<section id="formularz">
+  <div class="container">
+    <h2>Formularz kontaktowy</h2>
+    <form action="mailto:inselectropp@gmail.com" method="POST" enctype="text/plain">
+      <label for="name">Imię i nazwisko:</label>
+      <input type="text" id="name" name="Imię" required>
+
+      <label for="email">Adres e-mail:</label>
+      <input type="email" id="email" name="Email" required>
+
+      <label for="message">Wiadomość:</label>
+      <textarea id="message" name="Wiadomość" rows="5" required></textarea>
+
+      <button type="submit" class="btn">Wyślij</button>
+    </form>
+  </div>
+</section>
+
+
+   <section id="kontakt">
+  <div class="container">
+    <h2>Kontakt</h2>
+
+    <div class="kontakt-flex">
+      
+      <!-- Dane kontaktowe -->
+      <div class="kontakt-info">
+        <p>
+          <strong>INS-ELECTRO - Instalatorstwo Elektryczne Patryk Przybylski</strong><br>
+          ul. Kościańska 116, 64-000 Nowy Lubosz<br>
+          tel: <a href="tel:+48572008220">+48 572 008 220</a><br>
+          email: <a href="mailto:inselectropp@gmail.com">inselectropp@gmail.com</a>
+        </p>
+      </div>
+
+      <!-- Godziny otwarcia -->
+      <div class="kontakt-godziny">
+    <h3>Godziny otwarcia</h3>
+    <ul class="godziny-lista">
+      <li>Pon–Pt: 07:00 – 17:00</li>
+      <li>Sobota: 09:00 – 14:00</li>
+      <li>Niedziela: nieczynne</li>
+	  <li><em>W święta i niedziele obsługa wyłącznie awarii</em></li>
+    </ul>
+  </div>
+
+    </div>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2420.932264350468!2d16.817721615824097!3d52.10986217973511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4705a1e0d6f19c2f%3A0x51c2210e5fbbd8a2!2sKo%C5%9Bcia%C5%84ska%20116%2C%2064-000%20Nowy%20Lubosz!5e0!3m2!1spl!2spl!4v1715700000000!5m2!1spl!2spl"
+      width="100%"
+      height="300"
+      style="border:0; border-radius: 10px; margin-top: 30px;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+  </div>
+</section>
+
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 INS-ELECTRO | NIP: 6981849754 | REGON: 369679030 | <a href="https://twoj-sklep-inselectro.pl" target="_blank">Sklep internetowy</a></p>
+        </div>
+    </footer>
+</body>
+</html>

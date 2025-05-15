@@ -1,0 +1,155 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #001C38;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #FFD700;
+}
+
+header p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #FFD700;
+    color: #001C38;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #FFD700;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #FFD700;
+}
+
+.shop {
+    margin-left: 10px;
+}
+
+section {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+section:nth-child(even) {
+    background-color: #e9e9e9;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 32px;
+    color: #001C38;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #FFD700;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+ul li img {
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #001C38;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.kontakt-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.kontakt-info {
+    flex: 1;
+    min-width: 250px;
+}
+
+.kontakt-godziny {
+    flex: 1;
+    min-width: 250px;
+}
+
+.kontakt-godziny h3 {
+    color: #FFD700;
+    margin-top: 0;
+    text-align: left;
+}
+
+.godziny-lista {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    line-height: 1.8;
+    text-align: right;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+form label {
+  font-weight: bold;
+  color: #001C38;
+}
+
+form button {
+  width: fit-content;
+  align-self: flex-start;
+}
